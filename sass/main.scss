@@ -1,0 +1,40 @@
+@import './variables';
+@import './header';
+@import './better-barbershop';
+@import './how-much-this-cost';
+@import './why-clients-come-to-us';
+@import './our-masters';
+@import './barba-in-latin';
+@import './footer';
+
+
+// Mobile
+// margin-left: auto;
+// margin-right: auto;
+// width: 418px;
+
+body{
+    font-family: 'Open Sans';
+}
+
+h1,h2,h3,h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Ralwey';
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Open Sans';
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+input{
+    outline: none;
+}

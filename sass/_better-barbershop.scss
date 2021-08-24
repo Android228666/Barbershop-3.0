@@ -1,0 +1,111 @@
+@media (max-width:768px){
+
+    .better-bsh{
+        padding-top: 84px;
+        padding-bottom: 84px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 448px;
+        max-width: 480px;
+      
+    }
+
+
+    .first-bbsh-container{
+        display: none;
+    }
+
+    .better-bsh-list{
+        display: flex;
+        align-items: center;
+    }
+
+    .better-bsh-line{
+        width: 60px;
+        height: 1px;
+        background: $text-color;
+    }
+
+    .better-bsh-list-text{
+        margin-left: 20px;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $text-color;
+
+    }
+
+    .better-bsh-title{
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 33px;
+        letter-spacing: 0.05em;
+        color: $text-color;
+
+    }
+
+    .first-bbsh-text{
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.02em;
+        color: $second-text-color;
+    }
+
+    .second-bbsh-text{
+        margin-top: 20px;
+        width: 388px;
+        height: 156px;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 0.02em;
+        color: $second-text-color;
+
+    }
+
+    .bbsh-button{
+        margin-top: 40px;
+        width: 160px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        border: 1px solid $hover-color;
+        background: #ffffff;
+    }
+
+    .bbsh-button-text{
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+        color: $text-color;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

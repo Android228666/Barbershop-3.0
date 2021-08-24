@@ -1,0 +1,147 @@
+@media (max-width:768px){
+    
+    .visit-section{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 480px;
+    }
+
+    .visit-container{
+        width: 448px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 84px;
+        padding-bottom: 84px;
+    }
+
+    .visit-title-list{
+        display: flex;
+        align-items: center;
+    }
+
+    .visit-line{
+        width: 60px;
+        height: 1px;
+        background: $text-color;
+    }
+
+    .visit-first-list-text{
+        margin-left: 20px;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $text-color;
+    }
+
+    .visit-title{
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 49px;
+        letter-spacing: 0.05em;
+        color: $text-color;
+    }
+
+    .visit-title-text{
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        color: $second-text-color;
+    }
+
+    .visit-list{
+        margin-top: 44px;
+        display: flex;
+    }
+
+    .visit-item{
+        text-align: center;
+        width: 193px;
+        height: 133px;
+        background: $bg-color;
+    }
+
+    .visit-item:not(:first-child){
+        margin-top: 30px;
+    }
+
+    .second-visit-list-container{
+        margin-top: 35px;
+        margin-left: 30px;
+    }
+
+    .visit-number{
+        padding-top: 20px;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 57px;
+        letter-spacing: 0.05em;
+        color: $text-color;
+    }
+
+    .visit-plus{
+        position: relative;
+        bottom: 20px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: $hover-color;
+    }
+
+    .visit-text{
+        margin-top: 6px;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        color: $text-color;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

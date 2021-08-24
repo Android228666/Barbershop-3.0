@@ -1,0 +1,139 @@
+@media (max-width:768px){
+
+    .masters{
+        margin-left: auto;
+        margin-right: auto;
+        width: 480px;
+        padding-top: 84px;
+        padding-bottom: 84px;
+        background: $bg-color;
+    }
+
+    .masters-container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 448px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .masters-title-list{
+        display: flex;
+        align-items: center;
+    }
+
+     .masters-line{
+         width: 60px;
+         height: 1px;
+         background: $text-color;
+     }
+
+     .masters-title-text{
+         margin-left: 20px;
+         font-weight: 600;
+         font-size: 11px;
+         line-height: 15px;
+         letter-spacing: 0.1em;
+         text-transform: uppercase;
+         color: $text-color;
+     }
+
+     .masters-title{
+         margin-top: 20px;
+         font-weight: bold;
+         font-size: 42px;
+         line-height: 49px;
+         letter-spacing: 0.05em;
+         color: $text-color;
+     }
+
+     .masters-list{
+         margin-top: 44px;
+     }
+
+     .masters-item{
+         text-align: center;
+     }
+
+     .masters-item:not(:first-child){
+         margin-top: 64px;
+     }
+
+     .masters-name{
+         margin-top: 30px;
+         font-size: 18px;
+         line-height: 25px;
+         letter-spacing: 0.02em;
+         color: $text-color;
+     }
+
+     .type-of-work{
+         margin-top: 8px;
+         font-size: 14px;
+         line-height: 19px;
+         letter-spacing: 0.02em;
+         color: $hover-color;
+     }
+
+     .masters-soc-list{
+         margin-top: 30px;
+         display: flex;
+         justify-content: center;
+     }
+
+     .masters-soc-item{
+         width: 44px;
+         height: 44px;
+         background: #ffffff;
+         border-radius: 25px;
+     }
+
+     .masters-soc-item:not(:first-child){
+         margin-left: 10px;
+     }
+
+     .icon{
+         margin-top: 11px;
+     }
+
+     .svg-icon{
+         fill: $text-color;
+     }
+
+     .masters-soc-item:hover .svg-icon{
+         fill: $hover-color;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
