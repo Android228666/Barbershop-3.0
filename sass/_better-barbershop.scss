@@ -1,4 +1,5 @@
-@media (max-width:768px){
+// Mobile
+@media (max-width:767px){
 
     .better-bsh{
         padding-top: 84px;
@@ -87,6 +88,134 @@
         text-transform: uppercase;
         color: $text-color;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+// Laptop
+@media (min-width:768px){
+
+    .better-bsh{
+        margin-left: auto;
+        margin-right: auto;
+        width: 768px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .better-bsh-container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 720px;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+    }
+
+    .second-bbsh-photo{
+        margin-top: 30px;
+    }
+
+    .second-bbsh-container{
+        margin-left: 30px;
+    }
+
+    .better-bsh-list{
+        display: flex;
+        align-items: center;
+    }
+
+    .better-bsh-line{
+        width: 60px;
+        height: 1px;
+        background: $text-color;
+    }
+
+    .better-bsh-list-text{
+        margin-left: 20px;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $text-color;
+    }
+
+    .better-bsh-title{
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 33px;
+        letter-spacing: 0.05em;
+        color: $text-color;
+    }
+
+    .first-bbsh-text{
+        height: 74px;
+        width: 330px;
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.02em;
+        color: $second-text-color;
+    }
+
+    .second-bbsh-text{
+        height: 208px;
+        width: 330px;
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 0.02em;
+        color: $second-text-color;
+    }
+
+    .bbsh-button{
+        margin-top: 40px;
+        width: 160px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        border: 1px solid $hover-color;
+        border-radius: 25px;
+
+    }
+
+    .bbsh-button-text{
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 16px;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+        color: $text-color;
+    }
+
+
+
+
+
+
+
 
 
 

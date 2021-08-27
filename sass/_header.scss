@@ -1,4 +1,5 @@
-@media (max-width:768px){
+// Mobile
+@media (max-width:767px){
 
 
     .first-header-list,
@@ -77,8 +78,241 @@
        display: none;
    }
 
+}
 
 
+// Laptop
+@media (min-width:768px){
+
+    header{
+        margin-left: auto;
+        margin-right: auto;
+        width: 768px;
+        height: 680px;
+    }
+
+    .header{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-left: 39px;
+    }
+
+    .logo{
+        fill: #000000;
+        margin-top: 32px;
+        margin-left: 11px;
+    }
+
+
+    .first-header-list{
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        display: flex;
+        align-items: center;
+        margin-top: 282px; 
+        width: 90px;
+    }
+
+    .header-line{
+        width: 1px;
+        height: 60px;
+        background: $text-color;
+    }
+
+    .first-header-item{
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.2em;
+        color: $text-color;
+    }
+
+    .first-header-item:not(:first-child){
+        margin-top: 40px;
+    }
+
+    .first-header-item:hover{
+        color: $hover-color;
+    }
+
+    .second-header-container{
+        background: url(/photo/laptop/header-img3.png);
+        margin-left: 30px;
+        padding-left: 24px;
+        height: 680px;
+    }
+
+    .right-header-container{
+        padding-top: 40px;
+        display: flex;
+    }
+
+    .second-header-list{
+        display: flex;
+        // align-items: center;
+        padding-top: 12px;
+    }
+
+    .second-header-item{
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+    }
+
+
+    .second-header-item:hover{
+        color: $hover-color;
+    }
+
+    .second-header-item:not(:first-child){
+        margin-left: 24px;
+    }
+
+    .header-contacts{
+        margin-left: 47px;
+        text-align: center;
+    }
+
+    .header-button{
+        width: 160px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        border: 1px solid $hover-color;
+        border-radius: 25px;
+    }
+
+    .header-button-text{
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 16px;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    .header-phone{
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    .header-title-container{
+        padding-left: 96px;
+        padding-top: 156px;
+    }
+
+    .header-title-list{
+        display: flex;
+        align-items: center;
+    }
+
+    .header-title-line{
+        width: 60px;
+        height: 1px;
+        background: $line-color;
+    }
+
+    .right-title-list-text{
+        margin-left: 20px;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $line-color;
+    }
+
+    .header-title{
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+    }
+
+    .header-title-text{
+        padding-right: 134px;
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.02em;
+        color: $grey-color;
+    }
+
+    .header-switch{
+        margin-left: 400px;
+        margin-top: 181px;
+        display: flex;
+    }
+
+    .switch-text{
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.1em;
+        color: $line-color;
+    }
+
+    .switch-line{
+        width: 60px;
+        height: 1px;
+        background: $line-color;
+        margin-top: 8px;
+    }
+
+    .header-switch-item:not(:first-child){
+        margin-left: 26px;
+        text-align: right;
+    }
+
+    .header-switch-item:hover .switch-text{
+        color: #ffffff;
+    }
+
+    .header-switch-item:hover .switch-line{
+        background: #ffffff;
+    }
+
+    .header-photo-lines{
+        width: 18px;
+        margin-left: 528px;
+        position: relative;
+        bottom: 115px;
+    }
+
+    .header-photo-lines-item:not(:first-child){
+        margin-top: 12px;
+    }
+
+    .first-photo-line{
+        width: 18px;
+        height: 2px;
+        background: #ffffff;
+    }
+
+    .second-photo-line{
+        margin-left: auto;
+        width: 8px;
+        height: 2px;
+        background: $grey-color;
+    }
+
+    .third-photo-line{
+        margin-left: auto;
+        width: 8px;
+        height: 2px;
+        background: $grey-color;
+    }
 
 
 

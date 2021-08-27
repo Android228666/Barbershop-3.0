@@ -1,4 +1,4 @@
-@media (max-width:768px){
+@media (max-width:1280px){
 
     .footer-container{
         margin-left: auto;
@@ -21,6 +21,11 @@
     .second-footer-container{
         background: url(/photo/mobile/footer-bg.png);
         height: 496px;
+
+        @media (min-width:768px){
+            background: url(/photo/laptop/footer-bg.png);
+            height: 449px;
+        }
     }
 
     .contacts-container{
@@ -40,11 +45,17 @@
         letter-spacing: 0.05em;
         color: #ffffff;
         text-align: center;
+
+        @media (min-width:768px){
+            text-align: left;
+        }
     }
 
     .first-form{
         margin-top: 44px;
     }
+
+    
 
     .name-input{
         color: #ffffff;
@@ -54,6 +65,10 @@
         border-left: none;
         border-right: none;
         border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+
+        @media (min-width:768px){
+           width: 330px; 
+        }
     }
 
     .name-input:hover,
@@ -75,8 +90,14 @@
     }
 
     .phone-label{
-       margin-top: 44px;
-       display: block;
+       @media (max-width:767px){
+        margin-top: 44px;
+        display: block;
+       }
+       
+       @media (min-width:768px){
+        margin-left: 30px;
+       }
     }
 
     .phone-input{
@@ -87,6 +108,10 @@
         border-left: none;
         border-right: none;
         border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+
+        @media (min-width:768px){
+            width: 330px; 
+         }
     }
 
     .phone{
@@ -110,6 +135,10 @@
     .textarea-label{
         margin-top: 44px;
         display: block;
+        
+        @media (max-width:767px){
+           
+           }
     }
 
     .message{
@@ -132,6 +161,11 @@
         border-left: none;
         border-right: none;
         border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+
+        @media (min-width:768px){
+            width: 690px; 
+
+         }
     }
 
     .message-textarea:hover,
@@ -173,6 +207,10 @@
         line-height: 49px;
         letter-spacing: 0.05em;
         color: #ffffff;
+
+        @media (min-width:768px){
+        text-align: left;
+        }
     }
 
     .footer-list{
@@ -181,6 +219,7 @@
 
     .footer-item{
         display: flex;
+        align-items: center;
     }
 
     .footer-item:not(:first-child){
@@ -230,7 +269,15 @@
 
     .last-container{
         background: $bg-color;
-        width: 480px;
+        @media (max-width:767px){
+            width: 480px;
+
+        }
+
+        @media (min-width:768px){
+            width: 768px;
+
+        }
         margin-left: auto;
         margin-right: auto;
     }
@@ -239,10 +286,21 @@
         margin-left: auto;
         margin-right: auto;
         width: 448px;
+        @media (min-width:768px){
+            width: 720px;
+        }
         padding-left: 15px;
         padding-right: 15px;
         padding-top: 44px;
         padding-bottom: 44px;
+
+        @media (min-width:768px){
+            padding-top: 56px;
+            padding-bottom: 56px;
+            display: flex;
+            flex-direction: row-reverse;
+
+        }
     }
 
     .footer-soc{
@@ -265,7 +323,9 @@
     .footer-copyright{
         display: flex;
         align-items: center;
-        margin-top: 20px;
+         @media (max-width:767px){
+            margin-top: 20px;
+         }
     }
 
     .last-text{
@@ -275,38 +335,59 @@
         line-height: 15px;
         letter-spacing: 0.2em;
         color: $grey-color;
+
+        @media (min-width:768px){
+            margin-right: 283px;
+        }
+    }
+}
+
+
+@media (min-width:768px){
+
+    .footer-container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 768px;
+        background: #191C26;
     }
 
+    .first-footer-container{
+        height: 521px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 720px;
+        padding-left: 15px;
+        padding-right: 15px;
+        // padding-top: 100px;
+        // padding-bottom: 100px;
+    }
 
+    .contacts-container{
+        width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 
+    .form-container{
+        display: flex;
+        align-items: center;
+    }
 
+    .contacts{
+        display: flex;
+    }
 
+    .footer-list-text{
+        width: 210px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .time-of-work{
+        margin-left: 80px;
+    }
 
 }

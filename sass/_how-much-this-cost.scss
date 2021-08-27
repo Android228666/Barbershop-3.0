@@ -1,4 +1,5 @@
-@media (max-width:768px){
+// Mobile
+@media (max-width:767px){
 
     .price-section{
         background: url(/photo/mobile/price-bg.png), #111319 ;
@@ -169,6 +170,199 @@
     
     
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+// Laptop
+
+@media (min-width:768px){
+
+    .price-section{
+        margin-left: auto;
+        margin-right: auto;
+        width: 768px;
+        background: url(/photo/laptop/price-bg.png), #111319;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        height: 858px;
+    }
+
+    .price{
+        margin-left: auto;
+        margin-right: auto;
+        width: 720px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .title-price-list{
+        display: flex;
+        align-items: center;
+    }
+
+    .title-price-line{
+        width: 60px;
+        height: 1px;
+        background: $grey-color;
+    }
+
+    .title-price-text{
+        margin-left: 20px;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $grey-color;
+    }
+
+    .price-title{
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 49px;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+    }
+
+    .price-container{
+        margin-top: 44px;
+        padding: 30px 40px;
+        background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+    }
+
+    .price-item{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .price-item:not(:first-child){
+        margin-top: 20px;
+    }
+
+    .price-list-text{
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        color: $grey-color;
+    }
+
+    .price-in-ua{
+        margin-left: 6px;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        color: $grey-color;
+    }
+
+    .first-price-line{
+        width: 340px;
+        height: 1px;
+        background: $price-line-color;
+        margin-left: 6px;
+        margin-bottom: 5px;
+    }
+    
+    .second-price-line{
+        width: 347px;
+        height: 1px;
+        background: $price-line-color;
+        margin-left: 6px;
+        margin-bottom: 5px;
+    }
+
+    .third-price-line{
+        width: 376px;
+        height: 1px;
+        background: $price-line-color;
+        margin-left: 6px;
+        margin-bottom: 5px;
+    }
+
+    .forth-price-line{
+        width: 270px;
+        height: 1px;
+        background: $price-line-color;
+        margin-left: 6px;
+        margin-bottom: 5px;
+    }
+
+    .fifth-price-line{
+        width: 337px;
+        height: 1px;
+        background: $price-line-color;
+        margin-left: 6px;
+        margin-bottom: 5px;
+    }
+
+    .sixth-price-line{
+        width: 306px;
+        height: 1px;
+        background: $price-line-color;
+        margin-left: 6px;
+        margin-bottom: 5px;
+    }
+
+    .seventh-price-line{
+        width: 247px;
+        height: 1px;
+        background: $price-line-color;
+        margin-left: 6px;
+        margin-bottom: 5px;
+    }
+
+    .eighth-price-line{
+        width: 267px;
+        height: 1px;
+        background: $price-line-color;
+        margin-left: 6px;
+        margin-bottom: 5px;
+    }
+
+    .price-button{
+        margin-top: 50px;
+        width: 160px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        border: 1px solid $hover-color;
+        border-radius: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .price-button-text{
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 16px;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+
 
 
 

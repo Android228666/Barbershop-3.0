@@ -1,4 +1,4 @@
-@media (max-width:768px){
+@media (max-width:1280px){
 
     .latin-section{
         margin-left: auto;
@@ -6,7 +6,7 @@
         width: 480px;
         padding-top: 84px;
         padding-bottom: 84px;
-        background: $bg-color;
+        // background: $bg-color;
     }
 
     .latin-container{
@@ -45,14 +45,110 @@
         margin-top: 44px;
     }
 
-    .latin-image:not(:first-child){
-        margin-top: 30px;
+    @media (max-width:767px){
+        .latin-image:not(:first-child){
+            margin-top: 30px;
+        }
+    }
+
+    .latin-photo1{
+        background: url(/photo/mobile/latin-photo-1.jpg);
+        width: 418px;
+        height: 360px;
+        
+        @media (max-width:767px){
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    }
+
+    .latin-photo2{
+        background: url(/photo/mobile/latin-photo-2.jpg);
+        width: 418px;
+        height: 360px;
+        @media (max-width:767px){
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .latin-photo3{
+        background: url(/photo/mobile/latin-photo-3.jpg);
+        width: 418px;
+        height: 360px;
+        @media (max-width:767px){
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .latin-photo4{
+        background: url(/photo/mobile/latin-photo-4.jpg);
+        width: 418px;
+        height: 360px;
+        @media (max-width:767px){
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 
 
+}
 
 
+@media (min-width:768px){
 
+    .latin-section{
+        margin-left: auto;
+        margin-right: auto;
+        width: 768px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        // background: $bg-color;
+    }
+
+    .latin-container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 720px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .latin-photo-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+ 
+    .latin-photo1{
+        background: url(/photo/laptop/latin-photo1.jpg);
+        width: 330px;
+    }
+
+    .latin-photo2{
+        background: url(/photo/laptop/latin-photo2.jpg);
+        width: 330px;
+    }
+
+    .latin-photo3{
+        background: url(/photo/laptop/latin-photo3.jpg);
+        width: 330px;
+    }
+
+    .latin-photo4{
+        background: url(/photo/laptop/latin-photo4.jpg);
+        width: 330px;
+    }
+
+    .latin-image:nth-child(2n){
+        margin-left: 30px;
+    }
+
+    .latin-image:nth-child(-n+2){
+        margin-bottom: 30px;
+    }
 
 
 
