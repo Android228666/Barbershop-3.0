@@ -1,4 +1,4 @@
-@media (max-width:1280px){
+@media (max-width:1279px){
 
     .latin-section{
         margin-left: auto;
@@ -125,30 +125,123 @@
     .latin-photo1{
         background: url(/photo/laptop/latin-photo1.jpg);
         width: 330px;
+        height: 360px;
+        @media (min-width:1280px){
+            background: url(/photo/desktop/latin-photo1.jpg);
+            width: 270px;
+        }
     }
 
     .latin-photo2{
         background: url(/photo/laptop/latin-photo2.jpg);
         width: 330px;
+        height: 360px;
+        @media (min-width:1280px){
+            background: url(/photo/desktop/latin-photo2.jpg);
+            width: 270px;
+        }
     }
 
     .latin-photo3{
         background: url(/photo/laptop/latin-photo3.jpg);
         width: 330px;
+        height: 360px;
+        @media (min-width:1280px){
+            background: url(/photo/desktop/latin-photo3.jpg);
+            width: 270px;
+        }
     }
 
     .latin-photo4{
         background: url(/photo/laptop/latin-photo4.jpg);
         width: 330px;
+        height: 360px;
+        @media (min-width:1280px){
+            background: url(/photo/desktop/latin-photo4.jpg);
+            width: 270px;
+        }
     }
 
-    .latin-image:nth-child(2n){
+    @media (max-width:1279px){
+        .latin-image:nth-child(2n){
+            margin-left: 30px;
+        }
+    
+        .latin-image:nth-child(-n+2){
+            margin-bottom: 30px;
+        }
+    }
+
+}
+
+@media(min-width:1280px){
+
+    .latin-section{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1280px;
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+
+    .latin-container{
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    .latin-list{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .latin-photo-container{
+        margin-top: 44px;
+    }
+
+    .latin-line{
+        width: 60px;
+        height: 1px;
+        background: $text-color;
+    }
+
+    .latin-text{
+        position: relative;
+        bottom: 10px;
+        margin-left: 20px;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 21px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $text-color;
+    }
+
+    .latin-image:not(:first-child){
         margin-left: 30px;
     }
 
-    .latin-image:nth-child(-n+2){
-        margin-bottom: 30px;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

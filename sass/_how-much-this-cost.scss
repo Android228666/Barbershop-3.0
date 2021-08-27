@@ -194,8 +194,7 @@
 }
 
 // Laptop
-
-@media (min-width:768px){
+@media (min-width:768px) and (max-width:1279px){
 
     .price-section{
         margin-left: auto;
@@ -384,4 +383,182 @@
 
 
 
+}
+
+// Desktop
+@media (min-width:1280px){
+
+    .price-section {
+        background: url(/photo/desktop/price-bgi.png), #111319;
+        height: 718px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1280px;
+        padding-top: 130px;
+        padding-bottom: 130px;
+      }
+
+      .price{
+          margin-left: auto;
+          margin-right: auto;
+          width: 1200px;
+          padding-left: 15px;
+          padding-right: 15px;
+      }
+      
+      .title-price-list {
+        display: flex;
+        align-items: center;
+      }
+      
+      .title-price-line {
+        width: 60px;
+        height: 1px;
+        background: $line-color;
+      }
+      
+      .title-price-text {
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $line-color;
+        margin-left: 20px;
+      }
+      
+      .price-title {
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 49px;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+        margin-top: 20px;
+      }
+      
+      .price-container {
+        display: flex;
+        margin-top: 44px;
+      }
+      
+      .first-price-list {
+        padding: 30px 40px;
+        background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+      }
+      
+      .price-item {
+        display: flex;
+        align-items: center;
+      }
+      
+      .price-item:not(:first-child) {
+        margin-top: 20px;
+      }
+      
+      .price-list-text {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        color: $line-color;
+      }
+      
+      .first-price-line {
+        height: 1px;
+        width: 235px;
+        margin-left: 6px;
+        margin-top: 17px;
+        background: $price-line-color;
+      }
+      
+      .second-price-line {
+        height: 1px;
+        width: 242px;
+        margin-left: 6px;
+        margin-top: 17px;
+        background: $price-line-color;
+      }
+      
+      .third-price-line {
+        height: 1px;
+        width: 271px;
+        margin-left: 6px;
+        margin-top: 17px;
+        background: $price-line-color;
+      }
+      
+      .forth-price-line {
+        height: 1px;
+        width: 165px;
+        margin-left: 6px;
+        margin-top: 17px;
+        background: $price-line-color;
+      }
+      
+      .price-in-ua {
+        margin-left: 6px;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        color: $line-color;
+      }
+      
+      .second-price-list {
+        padding: 30px 40px;
+        background: linear-gradient(180deg, #090B13 0%, rgba(9, 11, 19, 0.2) 100%);
+      }
+      
+      .fifth-price-line {
+        height: 1px;
+        width: 234px;
+        margin-left: 6px;
+        margin-top: 17px;
+        background: $price-line-color;
+      }
+      
+      .sixth-price-line {
+        height: 1px;
+        width: 202px;
+        margin-left: 6px;
+        margin-top: 17px;
+        background: $price-line-color;
+      }
+      
+      .seventh-price-line {
+        height: 1px;
+        width: 143px;
+        margin-left: 6px;
+        margin-top: 17px;
+        background: $price-line-color;
+      }
+      
+      .eighth-price-line {
+        height: 1px;
+        width: 163px;
+        margin-left: 6px;
+        margin-top: 17px;
+        background: $price-line-color;
+      }
+      
+      .price-button {
+        margin-top: 50px;
+        width: 160px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid $hover-color;
+        border-radius: 30px;
+        background: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .price-button-text {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
 }

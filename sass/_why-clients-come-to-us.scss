@@ -1,4 +1,4 @@
-@media (max-width:1280px){
+@media (max-width:1279px){
     .visit-title-list{
         display: flex;
         align-items: center;
@@ -126,6 +126,133 @@
         padding-right: 15px;
         padding-left: 15px;
     }
+}
+
+@media (min-width:1280px){
+    .visit-section {
+        padding-top: 130px;
+        padding-bottom: 130px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1280px;
+        
+      }
+      
+      .visit-container {
+        display: flex;
+        // padding-left: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      .first-visit-container{
+          display: flex;
+          flex-direction: row-reverse;
+      }
+
+      .visit-container1{
+          margin-left: 100px;
+      }
+      
+      .visit-list {
+        display: flex;
+        padding-left: 100px;
+      }
+      
+      .visit-item {
+        width: 170px;
+        height: 133px;
+        text-align: center;
+        background-color: #f7f7f7;
+      }
+      
+      .visit-item:nth-child(2n) {
+        margin-top: 30px;
+      }
+      
+      .visit-item:first-child {
+        margin-right: 30px;
+      }
+      
+      .second-visit-list-container {
+        margin-top: 37px;
+      }
+      
+      .visit-number {
+        padding-top: 20px;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 57px;
+        letter-spacing: 0.05em;
+        color: $text-color;
+      }
+      
+      .visit-plus {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: $hover-color;
+        position: relative;
+        bottom: 28px;
+      }
+      
+      .visit-text {
+        margin-top: 6px;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        color: $text-color;
+      }
+      
+      .second-visit-container {
+        margin-left: 130px;
+      }
+      
+      .visit-title-list {
+        display: flex;
+        align-items: center;
+      }
+      
+      .visit-line {
+        height: 1px;
+        width: 60px;
+        background: $text-color;
+      }
+      
+      .visit-title-item {
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $text-color;
+      }
+      
+      .visit-title-item:last-child {
+        margin-left: 20px;
+      }
+      
+      .visit-title {
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 49px;
+        letter-spacing: 0.05em;
+        color: $text-color;
+      }
+      
+      .visit-title-text {
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        color: #555555;
+        width: 460px;
+      }
+      
 }
 
 

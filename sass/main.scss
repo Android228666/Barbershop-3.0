@@ -8,10 +8,6 @@
 @import './footer';
 
 
-// Mobile
-// margin-left: auto;
-// margin-right: auto;
-// width: 418px;
 
 body{
     font-family: 'Open Sans';
@@ -39,8 +35,10 @@ input{
     outline: none;
 }
 
-// img{
-//     display: block;
-//     max-width: 100%;
-//     height: auto;
-// }
+button:hover{
+    background: $hover-color;
+    color: #ffffff;
+}
+
+
+ 

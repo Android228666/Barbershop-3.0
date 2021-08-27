@@ -1,4 +1,4 @@
-@media (max-width:1280px){
+@media (max-width:1279px){
 
     .masters{
         margin-left: auto;
@@ -175,5 +175,112 @@
         width: 720px;
         padding-left: 15px;
         padding-right: 15px;
+    }
+}
+
+@media(min-width:1280px){
+    .masters {
+        padding-top: 130px;
+        padding-bottom: 130px;
+        background-color: #f7f7f7;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1280px;
+      }
+
+    .masters-container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+      
+      .masters-title-list {
+        display: flex;
+        align-items: center;
+      }
+      
+      .masters-line {
+        height: 1px;
+        width: 60px;
+        background: $text-color;
+      }
+      
+      .masters-title-item:not(:first-child) {
+        margin-left: 20px;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $text-color;
+      }
+      
+      .masters-title {
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 49px;
+        letter-spacing: 0.05em;
+        color: $text-color;
+      }
+      
+      .masters-list {
+        display: flex;
+        margin-top: 44px;
+        text-align: center;
+      }
+      
+      .masters-item:not(:first-child) {
+        margin-left: 30px;
+      }
+      
+      .masters-name {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.02em;
+        color: $text-color;
+      }
+      
+      .type-of-work {
+        margin-top: 8px;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0.02em;
+        color: $hover-color;
+      }
+      
+      .masters-soc-list {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+      }
+      
+      .masters-soc-item:not(:first-child) {
+        margin-left: 34px;
+      }
+      
+      .icon:hover .svg-icon {
+        fill: $hover-color;
+      }
+
+      .first-master{
+        background: url(/photo/desktop/first-worker.jpg);
+        width: 370px;
+        height: 346px;
+    }
+
+    .second-master{
+        background: url(/photo/desktop/second-worker.jpg);
+        width:370px;
+        height: 346px;
+    }
+
+    .third-master{
+        background: url(/photo/desktop/third-worker.jpg);
+        width: 370px;
+        height: 346px;
     }
 }
